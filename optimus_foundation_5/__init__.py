@@ -1,7 +1,7 @@
 """
 This is an Optimus template project for Foundation, the version will follow the version of Foundation
 """
-__version__ = "5"
+__version__ = "5.2.1"
 
 # Directory structure to create
 DIRECTORY_STRUCTURE = [
@@ -12,6 +12,7 @@ DIRECTORY_STRUCTURE = [
             ['js'],
             ['css'],
             ['scss'],
+            ['foundation5'],
             ['images'],
             ['templates'],
         ]
@@ -24,7 +25,7 @@ SOURCES_FROM = 'sources'
 # The directory name that will contains 'sources' in the new created projects
 SOURCES_TO = SOURCES_FROM
 
-# Default sources files or directory to synchronize within the new project directory
+# Default sources files or directories to synchronize within the new project sources directory
 # The sync task is performed before the scripts writing task
 FILES_TO_SYNC = (
     #(SOURCE, DESTINATION)
@@ -32,6 +33,7 @@ FILES_TO_SYNC = (
     ('js', 'js'),
     ('css', 'css'),
     ('scss', 'scss'),
+    ('foundation5', 'foundation5'),
     ('templates', 'templates'),
 )
 
