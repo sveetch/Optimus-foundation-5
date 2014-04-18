@@ -48,6 +48,7 @@ BUNDLES = {
     ),
     'app_js': Bundle(
         "js/foundation5/vendor/jquery.js",
+        "js/foundation5/vendor/fastclick.js",
         "js/foundation5/vendor/jquery.cookie.js",
         "js/foundation5/foundation/foundation.js",
         "js/foundation5/foundation/foundation.abide.js",
@@ -55,12 +56,14 @@ BUNDLES = {
         "js/foundation5/foundation/foundation.alert.js",
         "js/foundation5/foundation/foundation.clearing.js",
         "js/foundation5/foundation/foundation.dropdown.js",
+        #"js/foundation5/foundation/foundation.equalizer.js", # Foundation equalizer actually lacks of a responsive option like our addon
         "js/foundation5/foundation/foundation.interchange.js",
         "js/foundation5/foundation/foundation.joyride.js",
         "js/foundation5/foundation/foundation.magellan.js",
         "js/foundation5/foundation/foundation.offcanvas.js",
         "js/foundation5/foundation/foundation.orbit.js",
         "js/foundation5/foundation/foundation.reveal.js",
+        "js/foundation5/foundation/foundation.slider.js",
         "js/foundation5/foundation/foundation.tab.js",
         "js/foundation5/foundation/foundation.tooltip.js",
         "js/foundation5/foundation/foundation.topbar.js",
