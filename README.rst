@@ -19,6 +19,6 @@ After you have installed everything, you just have to use it like so : ::
 
     optimus init -t optimus_foundation_5 myproject
 
-Your project sources will be filled with Foundation 5.2.1 sources.
+Your project sources will be filled with Foundation 5.2.2 sources.
 
 This will create a new Optimus project filled with Foundation 5.

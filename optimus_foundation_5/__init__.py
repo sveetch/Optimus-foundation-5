@@ -1,7 +1,7 @@
 """
 This is an Optimus template project for Foundation, the version will follow the version of Foundation
 """
-__version__ = "5.2.2"
+__version__ = "5.2.2.1"
 
 # Directory structure to create
 DIRECTORY_STRUCTURE = [
